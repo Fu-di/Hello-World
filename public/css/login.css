@@ -1,0 +1,87 @@
+/*全局样式*/
+*{
+    margin:0;
+    padding:0;
+    box-sizing: border-box;
+}
+.container{
+    width:1140px;
+    margin:0 auto;
+    padding-top:200px;
+    min-height: 370px;
+}
+.container:before{
+    content:'';
+    display: table;
+}
+.container:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.mt{
+    margin-top: 10px;
+}
+.left {
+    padding: 0 100px;
+    float: left;
+}
+.right{
+    margin-top:50px;
+    float: left;
+}
+.a-right{
+    float: right;
+}
+.login,.password{
+    width:270px;
+    height:3em;
+    vertical-align:middle;
+    padding-left:30px;
+}
+/*icon字符集图标*/
+@font-face {
+    font-family:FontAwesome;
+    src:url('../fonts/fontawesome-webfont.ttf');
+        url('../fonts/fontawesome-webfont.eot');
+}
+.icon-login{
+    font-family:"FontAwesome";
+    position:absolute;
+    line-height: 3em;
+    padding-left:12px;
+}
+.icon-login:before{
+    content:'\f007';
+}
+.icon-password{
+    font-family:'FontAwesome';
+    position: absolute;
+    line-height: 3em;
+    padding-left:12px;
+}
+.icon-password:before{
+    content:'\f023';
+}
+.btn{
+    color:#FFF;
+    width: 270px;
+    border-radius: 3px;
+    padding:6px 12px;
+    display: inline;
+}
+.btn:hover{
+    cursor: pointer;
+}
+.btn-primary{
+    color:#fff;
+    background-color: #003b64;
+}
+.content{
+    padding-top:50px;
+}
+#footer p{
+   line-height:50px;
+   color:#003b64;
+   text-align:center;
+}

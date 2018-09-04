@@ -1,0 +1,45 @@
+.container{
+    width:1140px;
+    margin:0 auto;
+    min-height: 50px;
+}
+.container:before{
+    content:'';
+    display: table;
+}
+.container:after{
+    content: '';
+    display: table;
+    clear: both;
+}
+.btn{
+    color:#333;
+    border:1px solid transparent;
+    padding:6px 12px;
+    display: inline;
+}
+/*header*/
+#header{
+    line-height: 80px;
+}
+/*nav正在热映 ...*/
+.nav{
+    background-color: #003b64;
+}
+.nav ul{
+    text-align: center;
+}
+.nav ul li{
+    display: inline-block;
+}
+.nav ul li a{
+    font-size: 16px;
+    height: 60px;
+    line-height: 60px;
+    padding:0 40px;
+    display: block;
+}
+.nav ul li a:hover{
+    color: white;
+    text-decoration: none;
+}
