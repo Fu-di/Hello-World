@@ -1,0 +1,15 @@
+.container{
+    background: url("http://localhost:3000/img/404.jpg") no-repeat center center;
+    width:1800px;
+    height: 900px;
+    position: relative;
+}
+.container div{
+    position: absolute;
+    top:60%;
+    left: 40%;
+}
+.container div>p>a{
+    text-decoration: none;
+    color:chocolate;
+}
